@@ -6,7 +6,7 @@ from predict import dogcat
 
 #os.putenv('LANG', 'en_US.UTF-8')
 #os.putenv('LC_ALL', 'en_US.UTF-8')
-gunicorn app:app
+
     
 app = Flask(__name__)
 CORS(app)
