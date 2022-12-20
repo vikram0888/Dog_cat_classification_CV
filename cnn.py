@@ -49,7 +49,7 @@ test_set = test_datagen.flow_from_directory('cats_and_dogs_filtered/validation',
 
 model = classifier.fit_generator(training_set,
                          steps_per_epoch = 32,
-                         epochs = 100,
+                         epochs = 10,
                          validation_data = test_set,    
                          validation_steps = 32)
 
